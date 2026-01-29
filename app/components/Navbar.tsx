@@ -60,11 +60,6 @@ const Navbar = () => {
             >
               History
             </Link>
-          </div>
-          <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'center' }}>
-            <JobStatusIndicator />
-            <TokenStatusIndicator />
-            <ThemeToggle />
             <a 
               href="https://github.com/bhaktiutama/adimology" 
               target="_blank" 
@@ -74,12 +69,18 @@ const Navbar = () => {
                 alignItems: 'center',
                 color: 'var(--text-secondary)',
                 transition: 'color 0.2s',
+                paddingBottom: '2px', // Consistency with nav-links
               }}
               className="github-link"
               title="View on GitHub"
             >
               <Github size={20} />
             </a>
+          </div>
+          <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'center' }}>
+            <JobStatusIndicator />
+            <TokenStatusIndicator />
+            <ThemeToggle />
           </div>
         </div>
       </div>
