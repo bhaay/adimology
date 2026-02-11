@@ -6,7 +6,6 @@
 Adimology adalah aplikasi web untuk menganalisis target harga saham berdasarkan data transaksi broker (bandarmologi) dari Stockbit. Aplikasi ini juga melacak performa analisis secara otomatis dan menyediakan data akumulasi broker.
 
 ![Adimology Preview 1](public/adimology01.PNG)
-![Adimology Preview 2](public/adimology02.PNG)
 
 ---
 
